@@ -1,5 +1,6 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "framework": "nextjs"
+  "buildCommand": "next build",
+  "outputDirectory": ".next/standalone",
+  "framework": "nextjs",
+  "nodeVersion": "18.x"
 }
